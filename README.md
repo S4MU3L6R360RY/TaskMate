@@ -23,6 +23,7 @@ TaskMate is a simple and efficient to-do list web application that helps you man
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/yourusername/TaskMate.git
+   cd TaskMate
    ```
 2. **Install Dependencies**
    ```sh
