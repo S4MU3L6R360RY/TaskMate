@@ -24,40 +24,20 @@ TaskMate is a simple and efficient to-do list web application that helps you man
    ```sh
    git clone https://github.com/yourusername/TaskMate.git
    ```
-2. **Navigate to the project folder:**
+2. **Install Dependencies**
    ```sh
-   cd TaskMate
+   npm install
    ```
-3. **Initialize a Node.js project:**
-   ```sh
-   npm init -y
-   ```
-4. **Install dependencies:**
-   ```sh
-   npm install express cors
-   ```
-5. **Create a simple Express server:**
-   - Create a file `server.js` and add the following content:
-     ```js
-     const express = require('express');
-     const cors = require('cors');
-     const app = express();
-     const PORT = process.env.PORT || 3000;
 
-     app.use(cors());
-     app.use(express.static('public'));
-
-     app.listen(PORT, () => {
-         console.log(`Server running on http://localhost:${PORT}`);
-     });
-     ```
-6. **Move your frontend files into a `public` directory.**
-7. **Start the server:**
+3. **Start the Server**
    ```sh
    node server.js
    ```
-8. **Access TaskMate in your browser:**
-   Open `http://localhost:3000` in your web browser.
+   The application will be running at:
+   ```
+   http://localhost:3000
+   ```
+
 
 ## Usage
 
